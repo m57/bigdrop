@@ -1,11 +1,8 @@
-Bigdrop is script which allows you to easily create multiple Droplets. Hopefully it will become more managable, although this 
-isnt what i want from it personally at the moment, so it hasnt been coded in!
+Bigdrop is script which allows you to easily create multiple Droplets. Hopefully it will become more managable, although this isnt what i want from it personally at the moment, so it hasnt been coded in!
 
-The main annoyance is that you need to hardcode your DigitalOcean API key into the script, i could add in a '-t' argument or 
-something but im too lazy. Sorry!
+The main annoyance is that you need to hardcode your DigitalOcean API key into the script, i could add in a '-t' argument or something but im too lazy. Sorry!
 
 Enjoy anyway!
-
 ____________________________________________________________________
 
 Command Line Arguments:
@@ -74,3 +71,4 @@ This allows you to list the valid values for the XML data, so you want a differe
 -l img		--->	This lists all the images that you can use in the XML file and supported by DigitalOcean.
 -l loc		--->	This lists all the locations of the servers that are supported by DigitalOcean.
 -l droplets 	--->	This lists all the droplets you have in your account.
+
