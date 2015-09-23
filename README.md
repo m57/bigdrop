@@ -1,3 +1,5 @@
+![Arguments](http://slimgr.com/images/2015/09/23/9d8cf8b69ea6de7b6db074c3b4760fb8.png)
+
 Bigdrop is script which allows you to easily create multiple Droplets. Hopefully it will become more managable, although this isnt what i want from it personally at the moment, so it hasnt been coded in!
 
 The main annoyance is that you need to hardcode your DigitalOcean API key into the script, i could add in a '-t' argument or something but im too lazy. Sorry!
@@ -6,8 +8,6 @@ Enjoy anyway!
 ____________________________________________________________________
 
 **Command Line Arguments:**
-
-![Arguments](http://slimgr.com/images/2015/09/23/9d8cf8b69ea6de7b6db074c3b4760fb8.png)
 
 ```# python bigdrop.py -f file.xml```
 
