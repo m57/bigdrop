@@ -38,11 +38,11 @@ The following fields could be omitted:
 If they are, their default values are:
 
 ```
-name     : 'newDroplet'
-ram      : '512 MB"'
-location : 'London'
-image	   : 'Fedora 22 x86_64'
-sshkey	 : 'None'
+name    : 'newDroplet'
+ram     : '512 MB"'
+location: 'London'
+image   : 'Fedora 22 x86_64'
+sshkey  : 'None'
 ```
 
 So the following is a perfectly valid XML file:
