@@ -74,7 +74,7 @@ def parse_file(file):
 		print "%s[Error]%s Accessing file '%s'" % (c["r"], c["e"], file)
 		exit()
 		
-	d = { "amount" : 1, "name" : "newDroplet", "ram" : "512", "location" : "lon1",  "image" : "fedora-22-x64" }
+	d = { "amount" : 1, "name" : "newDroplet", "ram" : "512", "location" : "lon1",  "image" : "fedora-22-x64", "ssh_key" : "" }
 
 	try:
 		root = ET.parse(file).getroot()
@@ -127,6 +127,8 @@ def banner():
 	print c["e"],
 	print "       @_x90__, @program_ninja "
 	print "  https://github.com/m57/bigdrop.git "
+	print ""
+	print ""
 
 def usage():
 
@@ -144,6 +146,12 @@ def usage():
 
 			
 if __name__ == "__main__":
+
+	banner()
+
+	if token == "":
+		print "%s[Error]%s Please first set your DigitalOcean API token at the top of the script." % (c["r"], c["e"])
+		exit()
 
 	if "-rm" in sys.argv:
 		
@@ -173,18 +181,21 @@ if __name__ == "__main__":
 		option = sys.argv[sys.argv.index("-l")+1]
 
 		if option.lower() == "img":
+			print "%s[Option]%s All valid base images." % (c["y"], c["e"])
 			im = manager.get_distro_images()
 			for i in im:
 				print "%s[Image]%s %s -> '%s'" % (c["g"], c["e"], str(i.distribution + " " + i.name), i.slug)
 			exit()
 
 		elif option.lower() == "loc":
+			print "%s[Option]%s All regions." % (c["y"], c["e"])
 			r = manager.get_all_regions()
 			for i in r:
 				print "%s[Region]%s %s -> '%s'" % (c["g"], c["e"], i.name, i.slug)
 			exit()
 		
 		elif option.lower() == "droplets":
+			print "%s[Option]%s All your Droplets." % (c["y"], c["e"])
 			d = get_droplets()
 			count = 0
 			for i in d:
