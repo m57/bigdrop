@@ -1,0 +1,8 @@
+<droplet>
+<amount>2</amount>
+<name>Fedora-22-x86-64</name>
+<ram>512</ram>
+<ssh_key>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA</ssh_key>
+<location>lon1</location>
+<image>fedora-22-x64</image>
+</droplet>
