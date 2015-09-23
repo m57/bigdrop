@@ -11,30 +11,28 @@ ____________________________________________________________________
 
 This allows you to create an XML like so:
 
-=== XML FILE ===
-  \<droplet>
-  \<amount>3</amount>
-  \<name>AutoUbuntu</name>
-  \<ram>512</ram>
-  \<location>lon1</location>
-  \<ssh_key>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA</ssh_key>
-  \<image>fedora-22-x64</image>
-  \</droplet>
-========== EOF ==============
-
-* <name> is only Aa-Zz, -, 0-9
-* <ram> should be > 256
-* <location> be retrieved by doing 'python bigdrop.py -l loc'
-* <ssh_key> should just be an SSH key fingerprint that is already attached to your DigitalOcean account.
-* <image> can be retrieved via 'python bigdrop.py -l img'
+  \<droplet\>
+  \<amount\>3\</amount\>
+  \<name\>AutoUbuntu\</name\>
+  \<ram\>512\</ram\>
+  \<location\>lon1\</location\>
+  \<ssh_key\>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA\</ssh_key\>
+  \<image\>fedora-22-x64\</image\>
+  \</droplet\>
+  
+* \<name\> Is only Aa-Zz, -, 0-9
+* \<ram\> Should be \> 256
+* \<location\> Be retrieved by doing 'python bigdrop.py -l loc'
+* \<ssh_key\> Should just be an SSH key fingerprint that is already attached to your DigitalOcean account.
+* \<image\> Can be retrieved via 'python bigdrop.py -l img'
 
 The following fields could be omitted:
 
-* <name>
-* <ram>
-* <sshkey>
-* <location>
-* <image>
+* \<name\>
+* \<ram\>
+* \<sshkey\>
+* \<location\>
+* \<image\>
 
 If they are, their default values are:
 
@@ -46,11 +44,9 @@ sshkey	 : 'None'
 
 So the following is a perfectly valid XML file:
 
----
-  <droplet>
-  <amount>10</amount>
-  </droplet>
----
+  \<droplet\>
+  \<amount\>10\</amount\>
+  \</droplet\>
 
 This would create 10 default droplets as specified above.
 
