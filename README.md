@@ -7,6 +7,8 @@ ____________________________________________________________________
 
 **Command Line Arguments:**
 
+![Arguments](http://slimgr.com/images/2015/09/23/9d8cf8b69ea6de7b6db074c3b4760fb8.png)
+
 ```# python bigdrop.py -f file.xml```
 
 This allows you to create an XML like so:
