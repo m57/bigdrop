@@ -7,7 +7,7 @@ ____________________________________________________________________
 
 **Command Line Arguments:**
 
-* -f file.xml
+```# python bigdrop.py -f file.xml```
 
 This allows you to create an XML like so:
 
@@ -37,11 +37,13 @@ The following fields could be omitted:
 
 If they are, their default values are:
 
+```
 name     : 'newDroplet'
 ram      : '512 MB"'
 location : 'London'
 image	   : 'Fedora 22 x86_64'
 sshkey	 : 'None'
+```
 
 So the following is a perfectly valid XML file:
 
@@ -53,16 +55,17 @@ So the following is a perfectly valid XML file:
 
 This would create 10 default droplets as specified above.
 
-* -i
+```# python bigdrop.py -i```
 
 This is interactive mode and just goes through step by step to create multiple droplets, easy...
 
-*  -l option
+```# python bigdrop.py  -l [option]```
 
 This allows you to list the valid values for the XML data, so you want a different OS to fedora 22 ? See below...
 
-* -l img		    --->	This lists all the images that you can use in the XML file and supported by DigitalOcean.
-* -l loc		    --->	This lists all the locations of the servers that are supported by DigitalOcean.
-* -l droplets 	--->	This lists all the droplets you have in your account.
-
+```
+-l img		    --->	This lists all the images that you can use in the XML file and supported by DigitalOcean.
+-l loc		    --->	This lists all the locations of the servers that are supported by DigitalOcean.
+-l droplets 	--->	This lists all the droplets you have in your account.
+```
 ![Image]()
