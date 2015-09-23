@@ -73,4 +73,5 @@ This allows you to list the valid values for the XML data, so you want a differe
 -l loc		    --->	This lists all the locations of the servers that are supported by DigitalOcean.
 -l droplets 	--->	This lists all the droplets you have in your account.
 ```
+```# python bigdrop.py -f example-fedora22-512mb-london1-x2.xml```
 ![create and show droplets](http://slimgr.com/images/2015/09/23/d52a47155ef080dbe04b6816d874fa32.png)
