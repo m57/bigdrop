@@ -12,14 +12,14 @@ ____________________________________________________________________
 This allows you to create an XML like so:
 
 === XML FILE ===
-  <droplet>
-  <amount>3</amount>
-  <name>AutoUbuntu</name>
-  <ram>512</ram>
-  <location>lon1</location>
-  <ssh_key>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA</ssh_key>
-  <image>fedora-22-x64</image>
-  </droplet>
+  \<droplet>
+  \<amount>3</amount>
+  \<name>AutoUbuntu</name>
+  \<ram>512</ram>
+  \<location>lon1</location>
+  \<ssh_key>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA</ssh_key>
+  \<image>fedora-22-x64</image>
+  \</droplet>
 ========== EOF ==============
 
 * <name> is only Aa-Zz, -, 0-9
