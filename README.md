@@ -4,7 +4,9 @@ Bigdrop is script which allows you to easily create multiple Droplets. Hopefully
 
 The main annoyance is that you need to hardcode your DigitalOcean API key into the script, i could add in a '-t' argument or something but im too lazy. Sorry!
 
-Enjoy anyway!
+In terms of the API calls, I also didnt bother to write my own (no point re-inventing the wheel) as i found this: (https://github.com/koalalorenzo/python-digitalocean) and so thanks for the work!
+
+Enjoy!
 ____________________________________________________________________
 
 **Command Line Arguments:**
