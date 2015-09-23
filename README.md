@@ -11,6 +11,7 @@ ____________________________________________________________________
 
 This allows you to create an XML like so:
 
+```
   \<droplet\>
   \<amount\>3\</amount\>
   \<name\>AutoUbuntu\</name\>
@@ -19,7 +20,7 @@ This allows you to create an XML like so:
   \<ssh_key\>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA\</ssh_key\>
   \<image\>fedora-22-x64\</image\>
   \</droplet\>
-  
+```
 * \<name\> Is only Aa-Zz, -, 0-9
 * \<ram\> Should be \> 256
 * \<location\> Be retrieved by doing 'python bigdrop.py -l loc'
