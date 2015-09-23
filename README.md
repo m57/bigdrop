@@ -67,7 +67,8 @@ This allows you to list the valid values for the XML data, so you want a differe
 
 ```
 -l img		    --->	This lists all the images that you can use in the XML file and supported by DigitalOcean.
-```![Images](http://slimgr.com/images/2015/09/23/482eaa4bbfd872567f45176c4b018db0.png)
+```
+![Images](http://slimgr.com/images/2015/09/23/482eaa4bbfd872567f45176c4b018db0.png)
 ```
 -l loc		    --->	This lists all the locations of the servers that are supported by DigitalOcean.
 -l droplets 	--->	This lists all the droplets you have in your account.
