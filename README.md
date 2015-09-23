@@ -11,15 +11,15 @@ ____________________________________________________________________
 
 This allows you to create an XML like so:
 
-```
-  \<droplet\>
-  \<amount\>3\</amount\>
-  \<name\>AutoUbuntu\</name\>
-  \<ram\>512\</ram\>
-  \<location\>lon1\</location\>
-  \<ssh_key\>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA\</ssh_key\>
-  \<image\>fedora-22-x64\</image\>
-  \</droplet\>
+```XML
+  <droplet>
+  <amount>3</amount>
+  <name>AutoUbuntu</name>
+  <ram>512</ram>
+  <location>lon1</location>
+  <ssh_key>AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA:AA</ssh_key>
+  <image>fedora-22-x64</image>
+  </droplet>
 ```
 * \<name\> Is only Aa-Zz, -, 0-9
 * \<ram\> Should be \> 256
@@ -45,9 +45,11 @@ sshkey	 : 'None'
 
 So the following is a perfectly valid XML file:
 
-  \<droplet\>
-  \<amount\>10\</amount\>
-  \</droplet\>
+```XML
+  <droplet>
+  <amount>10</amount>
+  </droplet>
+```
 
 This would create 10 default droplets as specified above.
 
