@@ -12,6 +12,7 @@ ____________________________________________________________________
 **Dependencies**
 
 Thanks go out to: https://github.com/koalalorenzo/python-digitalocean
+
 ```# apt-get install python-pip```
 
 ```# pip install -U python-digitalocean```
