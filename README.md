@@ -9,6 +9,12 @@ In terms of the API calls, I also didnt bother to write my own (no point re-inve
 Enjoy!
 ____________________________________________________________________
 
+**Dependencies**
+
+Thanks go out to: https://github.com/koalalorenzo/python-digitalocean
+```# apt-get install python-pip```
+```# pip install -U python-digitalocean```
+
 **Command Line Arguments:**
 
 ```# python bigdrop.py -f file.xml```
